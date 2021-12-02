@@ -19,7 +19,9 @@ First clone the files into the desired directory using the command line. Then ru
 * DB_USER='*your MySql username here*'
 * DB_PW='*your MySql password here*'
 
-Now run the command npm start to start the application and type `http://localhost:3001/` and youll be directed to the application with all the seeded information.
+Now run the command npm start to start the application and type `http://localhost:3001/` and you'll be directed to the application with all the seeded information.
+
+You can also checkout the deployed application [here](https://floating-garden-75030.herokuapp.com/)
 
 ## Usage
 
@@ -35,8 +37,33 @@ When the user first opens the site they are greeted with a dashboard of multiple
 
 ## Dependencies and Technology
 
+Technologies
+* [Node.js](https://nodejs.org/en/)
+* [MySQL](https://www.mysql.com/)
+
+Dependencies
+
+* [Express](https://www.npmjs.com/package/express)
+* [Sequelize](https://sequelize.org/)
+* [Express-Session](https://www.npmjs.com/package/express-session)
+* [Connect-session](https://www.npmjs.com/package/connect-session)
+* [Connect-Session-Sequelize](https://www.npmjs.com/package/connect-session-sequelize)
+* [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
+* [Node MySQL 2](https://www.npmjs.com/package/mysql2?__cf_chl_captcha_tk__=pmd_D_9ZYQ1MY_s2zyp9_cyigjzi9F6rp.HQGrKz3R3K9gA-1632161698-0-gqNtZGzNAuWjcnBszQfR)
+* [dotenv](https://www.npmjs.com/package/dotenv)
+* [Path](https://www.npmjs.com/package/path)
+* [Bcrypt](https://www.npmjs.com/package/bcrypt)
+* [Jest](https://www.npmjs.com/package/jest)
+
 ## Authors
+
+Tyler Pennington
 
 ## Contact
 
+[Github](https://github.com/Tcpenn)
+[Email](mailto:tcpenn1026@gmail.com)
+
 ## Road Map
+
+The plans for this app are to make a post content area for users to add descriptions for their posts and to spruce up the CSS.    
