@@ -194,7 +194,16 @@
   .edit-post-form {
     margin-bottom: 5%;
   }
-  
+  .your-posts {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .spacer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   footer {
     border-top: 1px solid #ccc;
     display: flex;

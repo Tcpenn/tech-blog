@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech_blog</title>
+  <title>Tech_Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
@@ -16,8 +16,8 @@
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">New Post</a>
-        <button id="logout" class="btn-no-style">Logout</button>
+        <a href="/dashboard">Create Post</a>
+        <button id="logout" class="btn-no-style">logout</button>
         {{else}}
         <a href="/login">Login</a>
         {{/if}}
@@ -27,7 +27,9 @@
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting!
+      <a href="https://github.com/Tcpenn">GitHub</a> 
+      <div class = "spacer">  ||  </div> 
+      <a href="mailto:tcpenn1026@gmail.com">Email</a>
     </footer>
   </div>
   
