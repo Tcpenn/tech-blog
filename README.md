@@ -6,9 +6,11 @@ This is a CMS style blog site for users to view and share posts about technology
 ## Table of Contents
 
 * [Installation and setup](#install)
-*
-*
-*
+* [Usage](#usage)
+* [License](#license)
+* [Credits](#credits)
+* [Dependencies and Technology](#tech)
+
 
 
 ## Installation and Setup<a id = "install"></a>
@@ -23,19 +25,19 @@ Now run the command npm start to start the application and type `http://localhos
 
 You can also checkout the deployed application [here](https://floating-garden-75030.herokuapp.com/)
 
-## Usage
+## Usage <a id = "usage"></a>
 
 When the user first opens the site they are greeted with a dashboard of multiple posts, the suer that created it and the date they created it. As well as the login button. If the users decides to login or signup they can then comment and like posts as well as create their own posts
 
-## License
+## License<a id = "license"></a>
 
 [MIT](./LICENSE.txt)
 
-## Credits
+## Credits<a id = "credits"></a>
 
 * [UCF Coding Bootcamp](https://github.com/coding-boot-camp/)
 
-## Dependencies and Technology
+## Dependencies and Technology<a id = "tech"></a>
 
 Technologies
 * [Node.js](https://nodejs.org/en/)
